@@ -1,8 +1,8 @@
 public class BonusMilesService {
-    public int calculate(int a) {
+    public int calculate(int price) {
 
         int rublesPerMile = 20;
-        int miles = (a / rublesPerMile);
+        int miles = (price / rublesPerMile);
 
         return miles;
 
